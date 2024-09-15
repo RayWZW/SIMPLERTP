@@ -1,0 +1,25 @@
+name: RANDOMTP
+version: 1.0
+main: com.example.RANDOMTPPlugin
+api-version: 1.21
+description: A plugin for random teleportation with configurable options.
+author: RayWZW
+commands:
+  rtp:
+    description: Teleports the player to a random location.
+    usage: /<command> [world <worldname>]
+    aliases: [randomtp]
+    permission: randomtp.use
+    permission-message: You do not have permission to use this command.
+  rtp-player:
+    description: Teleports another player to a random location.
+    usage: /<command> <player> <world>
+    permission: randomtp.admin
+    permission-message: You do not have permission to use this command.
+permissions:
+  randomtp.use:
+    description: Allows the player to use the random teleportation command.
+    default: true
+  randomtp.admin:
+    description: Allows the player to use the /rtp-player command.
+    default: op
