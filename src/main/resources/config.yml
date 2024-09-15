@@ -1,5 +1,0 @@
-cooldown: 10          
-delay: 3             
-radius: 1000         
-sound_before: "ENTITY_CREEPER_PRIMED" 
-sound_after: "DRAGON_FIREBALL_EXPLODE"      
